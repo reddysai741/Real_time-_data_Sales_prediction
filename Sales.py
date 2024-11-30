@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load the trained regression model
-model = joblib.load("C:\\Users\\reddy\\Downloads\\regression_model.pkl")
+model = joblib.load("regression_model.pkl")
 
 # Define product details
 products = {
