@@ -51,4 +51,9 @@ The trained model is saved as `regression_model.pkl` using **joblib**. This save
 
 ## Steps to Run the Project
 
-- 1. Clone the Repository
+### Key Details:
+1. **Step 1** focuses on installing dependencies. It explains how to use `pip install -r requirements.txt` or manually install the libraries.
+2. **Step 2** covers how to run the Streamlit dashboard with `streamlit run streamlit_dashboard.py` and how to access it on `localhost:8501`.
+
+
+
