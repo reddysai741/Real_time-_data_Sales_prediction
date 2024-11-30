@@ -49,3 +49,6 @@ A good R² score and a low MSE indicate that the model is performing well in pre
 
 The trained model is saved as `regression_model.pkl` using **joblib**. This saved model is then loaded in the Streamlit app to make real-time predictions on new, simulated sales data.
 
+## Steps to Run the Project
+
+- 1. Clone the Repository
