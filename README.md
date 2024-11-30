@@ -36,31 +36,6 @@ The model is trained on a simulated dataset of sales data where the target varia
 
 The training process involves fitting the model to the data and then using it to predict **Total Sales**. Once trained, the model is saved using **joblib** to allow for real-time predictions in the Streamlit dashboard.
 
-## Model Evaluation
-
-The performance of the model is evaluated using the following metrics:
-
-- **Mean Squared Error (MSE)**: This metric measures the average squared difference between the actual values and the predicted values. A lower MSE indicates better performance, as it means the predictions are closer to the actual values.
-  
-  **Formula**:  
-  \[
-  MSE = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2
-  \]
-  Where:
-  - \( y_i \) is the actual value,
-  - \( \hat{y}_i \) is the predicted value,
-  - \( n \) is the number of data points.
-
-- **R² Score (Coefficient of Determination)**: This metric indicates how well the model fits the data. The R² score ranges from 0 to 1, with higher values indicating a better fit. An R² score of 1 means the model perfectly predicts the total sales.
-
-  **Formula**:  
-  \[
-  R^2 = 1 - \frac{\sum_{i=1}^{n} (y_i - \hat{y}_i)^2}{\sum_{i=1}^{n} (y_i - \bar{y})^2}
-  \]
-  Where:
-  - \( y_i \) is the actual value,
-  - \( \hat{y}_i \) is the predicted value,
-  - \( \bar{y} \) is the mean of the actual values.
 
 ### Model Performance
 
