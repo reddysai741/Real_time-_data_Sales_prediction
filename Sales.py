@@ -5,7 +5,9 @@ import joblib
 import time
 from datetime import datetime
 import matplotlib.pyplot as plt
-import seaborn as sns
+import seaborn as sns 
+import numpy as np
+import random
 
 # Load the trained regression model
 model = joblib.load("regression_model.pkl")
